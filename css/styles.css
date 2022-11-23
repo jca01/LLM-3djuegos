@@ -6,6 +6,7 @@
 }
 header {
     background-image: url(../img/bg_top.png);
+
 } 
 header div {
     display: flex;
@@ -17,9 +18,31 @@ header .search {
     justify-content: right;
     justify-items: end;
 }
+nav {
+    background-color: blue;
+    
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.central {
+    display: flex;
+}
+main {
+    background-image: url(../img/final.jpg);
+}
 main section {
     flex-basis:55%;
+   
 }
 aside {
     flex-basis: 45%;
+}
+article div {
+    display: flex;
+    margin: 1rem;
 }
