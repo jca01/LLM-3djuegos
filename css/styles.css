@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(../img/bg_top.png);
+} 
+header div {
+    display: flex;
+    justify-content: space-between;
+
+}
+header .search {
+    display: flex;
+    justify-content: right;
+    justify-items: end;
+}
+main section {
+    flex-basis:55%;
+}
+aside {
+    flex-basis: 45%;
+}
